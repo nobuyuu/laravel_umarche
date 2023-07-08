@@ -34,7 +34,7 @@ Route::prefix('expired-owners')->
     middleware('auth:admin')->group(function(){
         Route::get('index', [OwnersController::class,'expiredOwnerIndex'])->name('expired-owners.index');
         Route::post('destroy/{owner}',[OwnersController::class, 'expiredOwnerDestroy'])->name('expired-owners.destroy');
-    });
+});
 
 
 Route::get('/dashboard', function () {
@@ -69,7 +69,7 @@ Route::middleware('guest')->group(function () {
                 ->name('password.update');
 });
 
-Route::middleware('auth')->group(function () {
+Route::middleware('auth:admin')->group(function () {
     Route::get('verify-email', [EmailVerificationPromptController::class, '__invoke'])
                 ->name('verification.notice');
 

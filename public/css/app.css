@@ -1059,6 +1059,10 @@ select {
   width: 1.5rem;
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
 .w-28 {
   width: 7rem;
 }
@@ -1077,10 +1081,6 @@ select {
 
 .w-1 {
   width: 0.25rem;
-}
-
-.w-1\/4 {
-  width: 25%;
 }
 
 .max-w-6xl {
@@ -2149,12 +2149,12 @@ select {
     border-left-width: 1px;
   }
 
-  .md\:p-6 {
-    padding: 1.5rem;
-  }
-
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:p-6 {
+    padding: 1.5rem;
   }
 
   .md\:px-5 {

@@ -955,16 +955,16 @@ select {
   margin-top: 8rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 
 .block {
@@ -2196,4 +2196,3 @@ select {
     padding-right: 2rem;
   }
 }
-

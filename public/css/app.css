@@ -876,6 +876,11 @@ select {
   margin-right: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -968,6 +973,14 @@ select {
   margin-bottom: 0.25rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -976,16 +989,8 @@ select {
   margin-right: 0.75rem;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -2198,18 +2203,6 @@ select {
     width: 66.666667%;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
-  }
-
-  .md\:w-1 {
-    width: 0.25rem;
-  }
-
-  .md\:w-1\/12 {
-    width: 8.333333%;
-  }
-
   .md\:w-3\/12 {
     width: 25%;
   }
@@ -2220,6 +2213,10 @@ select {
 
   .md\:w-2\/12 {
     width: 16.666667%;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:grid-cols-2 {

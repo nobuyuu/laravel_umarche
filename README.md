@@ -1,17 +1,15 @@
-## udemy Laravel講座
-
 ## ダウンロード方法
 
 git clone
 
-git clone https://github.com/aokitashipro/
+git clone https://github.com/nobuyuu/laravel_umarche.git
 
 laravel_umarche.git
 
 
 git clone ブランチを指定してダウンロードする場合
 
-giy clone -b ブランチ名 https://github.com/aokitashipro/laravel_umarche.git
+giy clone -b ブランチ名 https://github.com/nobuyuu/laravel_umarche.git
 
 
 もしくはzipファイルでダウンロードしてください

@@ -19,7 +19,11 @@ use App\Models\Cart;
 */
 
 Route::get('/', function () {
-    return view('user.welcome');
+    return view('welcome');
+});
+
+Route::get('/dashboard', function () {
+    return view('user.dashboard');
 });
 
 Route::middleware('auth:users')->group(function(){

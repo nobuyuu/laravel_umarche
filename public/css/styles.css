@@ -1,0 +1,47 @@
+.login-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 10px 0; /* 上下にマージンを追加 */
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button.admin {
+    background-color: #007bff;
+}
+
+.login-button.admin:hover {
+    background-color: #0056b3;
+}
+
+.login-button.owner {
+    background-color: #28a745;
+}
+
+.login-button.owner:hover {
+    background-color: #1e7e34;
+}
+
+.login-button.user {
+    background-color: #ffc107;
+}
+
+.login-button.user:hover {
+    background-color: #e0a800;
+}
+}

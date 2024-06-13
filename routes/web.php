@@ -19,14 +19,14 @@ use App\Models\Cart;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('user.welcome');
 });
 
 Route::get('/dashboard', function () {
     return view('user.dashboard');
 });
 
-Route::middleware('auth:users')->group(function(){
+Route::prefix('items')->middleware('auth:users')->group(function(){
         Route::get('/', [ItemController::class,'index'])->name('items.index');
         Route::get('show/{item}',[ItemController::class, 'show'])->name('items.show');
 });

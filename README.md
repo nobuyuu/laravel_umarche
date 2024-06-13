@@ -1,3 +1,12 @@
+## ログインIDとパス
+
+管理者ID：test@test.com     パス：password123
+
+オーナーID：test1@test.com  パス：password123
+
+ユーザーID：test@test.com   パス：password123
+
+
 ## ダウンロード方法
 
 git clone
